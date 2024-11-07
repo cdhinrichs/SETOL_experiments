@@ -46,6 +46,7 @@ numpy==2.1.2
     # via powerlaw
     # via scikit-learn
     # via scipy
+    # via torchvision
     # via weightwatcher
 nvidia-cublas-cu12==12.4.5.8
     # via nvidia-cudnn-cu12
@@ -82,6 +83,7 @@ pandas==2.2.3
     # via weightwatcher
 pillow==11.0.0
     # via matplotlib
+    # via torchvision
 powerlaw==1.5
     # via weightwatcher
 pyparsing==3.2.0
@@ -106,7 +108,10 @@ sympy==1.13.1
     # via torch
 threadpoolctl==3.5.0
     # via scikit-learn
-torch==2.5.0
+torch==2.5.1
+    # via setol-experiments
+    # via torchvision
+torchvision==0.20.1
     # via setol-experiments
 tqdm==4.66.5
     # via weightwatcher

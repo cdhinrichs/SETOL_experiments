@@ -8,6 +8,7 @@ authors = [
 dependencies = [
     "torch>=2.5.0",
     "weightwatcher>=0.7.5.5",
+    "torchvision>=0.20.1",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
