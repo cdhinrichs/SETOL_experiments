@@ -3,6 +3,9 @@ datasets
 ww-img*
 notebooks/*.png
 figs
+all
+FC1
+FC2
 
 *safetensors
 *.bin
